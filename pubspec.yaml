@@ -21,8 +21,10 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  carousel_slider: ^2.3.1
   flutter:
     sdk: flutter
+  fluttertoast:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -33,11 +35,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  pedantic: ^1.0.0
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
